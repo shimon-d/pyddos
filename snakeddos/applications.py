@@ -2,7 +2,7 @@ import socket
 import threading
 from random import randint
 from multiprocessing import Process, cpu_count
-from snakeddos.errors import NoTargetError
+from snakeddos.exceptions import NoTargetError
 
 
 # FIXME: [302] Broken pip [temporary solution]
@@ -11,7 +11,7 @@ signal(SIGPIPE, SIG_DFL)
 
 
 class SnakeDDoS:
-    def __init__(self, *, target: str = 'localhost', port: int = 80, file_name: str = '../payload/fsociety.fs'):
+    def __init__(self, *, target: str = 'localhost', port: int = 80, file_name: str = ''):
         self._processes = []
 
         # FIXME: Vars should be imported from a consts file

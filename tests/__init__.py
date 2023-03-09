@@ -1,2 +1,2 @@
-from snakeddos.errors import NoTargetError
+from snakeddos.exceptions import NoTargetError
 
