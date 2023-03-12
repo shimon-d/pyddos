@@ -14,7 +14,6 @@ class SnakeDDoS:
     def __init__(self, *, target: str = 'localhost', port: int = 80, file_name: str = ''):
         self._processes = []
 
-        # FIXME: Vars should be imported from a consts file
         self.target = target
         self.port = port
 
