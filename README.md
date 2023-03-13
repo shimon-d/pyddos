@@ -3,8 +3,6 @@ A Python DDoS library\
 Python version: 3.11\
 For testing purposes only
 
-`pip install snakeddos`
-
 
 ## Basic Usage
 
