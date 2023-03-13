@@ -3,6 +3,8 @@ A Python DDoS library\
 Python version: 3.11\
 For testing purposes only
 
+Author: Victor deMatos (Shim'n D'Ioannis)
+Release date: Mar/05/2023
 
 ## Basic Usage
 
