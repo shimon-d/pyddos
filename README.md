@@ -6,7 +6,7 @@ For testing purposes only
 
 ## Basic Usage
 
-```
+```python
 from snakeddos import SnakeDDoS
 
 if __name__ == '__main__':
